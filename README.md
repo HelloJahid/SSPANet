@@ -14,6 +14,18 @@ SSPANet combines **Z-pool channel attention**, **strip pooling for long-range sp
 
 ---
 
+## SSPANet Architecture
+
+The structural diagram of the proposed **SSPANet** attention mechanism is shown below:
+
+<p align="center">
+  <img src="assets/sspanet_architecture.png" alt="SSPANet Architecture" width="500"/>
+</p>
+
+*Fig. Structural diagram of proposed SSPANet, combining Z-Pool channel attention with strip and style pooling spatial attention.*
+
+---
+
 ## Key Contributions
 - **SSPANet attention module**: Fuses channel, spatial, and style cues for robust feature refinement.
 - **Z-pool channel attention**: Uses both average and max pooling for richer statistics.
@@ -53,11 +65,11 @@ Experiments are conducted on the **Figshare Brain Tumor Dataset**:
 
 ---
 
-## Installation & Usage
+<!-- ## Installation & Usage
 ```bash
 # clone repo
 git clone https://github.com/YourUsername/SSPANet-BrainTumor.git
 cd SSPANet-BrainTumor
 
 # create environment
-pip install -r requirements.txt
+pip install -r requirements.txt -->
