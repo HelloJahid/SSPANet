@@ -31,7 +31,7 @@ The structural diagram of the proposed **SSPANet** attention mechanism is shown 
 - **Z-pool channel attention**: Uses both average and max pooling for richer statistics.
 - **Strip and style pooling**: Captures directional context and texture information often missed by prior methods.
 - **Explainable predictions**: GradCAM variants show precise tumor localization and boundary clarity.
-- **State-of-the-art performance**: Achieves 97% accuracy, precision, recall, and F1-score with ResNet50 + SSPANet, along with 95% Cohen’s Kappa and MCC:contentReference[oaicite:0]{index=0}.
+- **State-of-the-art performance**: Achieves 97% accuracy, precision, recall, and F1-score with ResNet50 + SSPANet, along with 95% Cohen’s Kappa and MCC.
 
 ---
 
@@ -39,7 +39,7 @@ The structural diagram of the proposed **SSPANet** attention mechanism is shown 
 Experiments are conducted on the **Figshare Brain Tumor Dataset**:
 - 3,064 T1-weighted contrast-enhanced MRI images  
 - 233 patients, three tumor classes: *Meningioma, Glioma, Pituitary*  
-- Split: 80% training, 10% validation, 10% testing:contentReference[oaicite:1]{index=1}  
+- Split: 80% training, 10% validation, 10% testing  
 
 ---
 
@@ -61,7 +61,7 @@ Experiments are conducted on the **Figshare Brain Tumor Dataset**:
 | **ResNet50 + SSPANet**| **0.97** | **0.97**  | **0.97** | **0.97** | **0.95** | **0.95** |
 
 - SSPANet consistently outperforms existing attention mechanisms.  
-- Visualizations show sharper, noise-free tumor localization compared to baselines:contentReference[oaicite:2]{index=2}.  
+- Visualizations show sharper, noise-free tumor localization compared to baselines.  
 
 ---
 
