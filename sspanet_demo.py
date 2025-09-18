@@ -1,3 +1,21 @@
+# ============================================================
+# DEMO CODE: SSPANet Attention Module
+#
+# Based on the paper:
+# "Enhancing brain tumor classification with a novel attention-based
+#  explainable deep learning framework"
+# Hasan, M.J., Hasan, M., Akter, S., Mahi, A.B.S., & Uddin, M.P.
+# Biomedical Signal Processing and Control, Elsevier, 2026
+# DOI: https://doi.org/10.1016/j.bspc.2025.108636
+#
+# Code Owner: Md Jahid Hasan (RMIT University)
+# License: MIT License
+# ============================================================
+
+
+
+
+
 import torch
 import torch.nn as nn
 
